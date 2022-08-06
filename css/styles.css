@@ -593,8 +593,12 @@ img {
 }
 
 .questions__icon {
-  font-size: 1.25rem;
-  color: purple;
+  font-size: 1.4rem;
+  color: black;
+}
+
+.questions__icon{
+  transform: ;
 }
 .questions__description {
   font-size: 16px;
@@ -609,6 +613,7 @@ img {
 .questions__header {
   display: flex;
   align-items: center;
+  justify-content: space-between;
 
   padding: 0.75rem 0.5rem;
   cursor: pointer;
