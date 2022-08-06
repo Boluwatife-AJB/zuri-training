@@ -531,6 +531,132 @@ img {
   color: #fff;
 }
 
+.scope-ruler {
+  border: 0.4px solid #e0ded7;
+}
+
+/* QUESTION STYLES */
+
+.question-section {
+  padding-top: 2rem;
+}
+.question-container {
+  margin: 0 auto;
+}
+
+.question-top {
+  margin-bottom: 7rem;
+}
+
+.question-wire {
+  position: relative;
+  left: 200px;
+}
+
+.question-wire img {
+  width: 150px;
+}
+
+.question-top_text {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.question-top_text p {
+  color: #e7332b;
+  font-size: 24px;
+  margin-bottom: 7px;
+}
+
+.question-top_text h2 {
+  font-size: 50px;
+  font-weight: 700;
+}
+
+/* ACCORDION STYLES */
+
+.question-accordion {
+  width: 80%;
+  margin: 0 auto 5rem;
+  opacity: 0.8;
+}
+
+.questions__item {
+  border: 1px solid #b0a3bb;
+  padding: 25px 10px;
+}
+.questions__item-title {
+  font-size: 20px;
+  font-weight: 700;
+  /* padding: 15px 0; */
+}
+
+.questions__icon {
+  font-size: 1.25rem;
+  color: purple;
+}
+.questions__description {
+  font-size: 16px;
+  padding: 1rem;
+  font-family: 'Times New Roman', Times, serif;
+}
+@media screen and (min-width: 992px) {
+  .questions__description {
+    padding: 5px 0 0 1rem;
+  }
+}
+.questions__header {
+  display: flex;
+  align-items: center;
+
+  padding: 0.75rem 0.5rem;
+  cursor: pointer;
+}
+@media screen and (min-width: 992px) {
+  .questions__header {
+    padding: 0rem 1rem;
+  }
+}
+.questions__content {
+  overflow: hidden;
+  height: 0;
+}
+.questions__item,
+.questions__header,
+.questions__item-title,
+.questions__icon,
+.questions__description,
+.questions__content {
+  transition: 0.3s;
+}
+
+.question-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  margin-bottom: 3rem;
+}
+
+.question-bottom p {
+  font-size: 18px;
+}
+
+.question-btn {
+  display: flex;
+  border-radius: 30px;
+  align-items: center;
+  justify-content: center;
+  background-color: #e7332b;
+  width: 17%;
+  height: 45px;
+}
+
+.question-btn a {
+  color: #fff;
+}
+
 /* MEDIA QUERIES FOR TABLET */
 @media screen and (max-width: 768px) {
   .nav-link {
@@ -709,6 +835,46 @@ img {
     width: 50px;
     height: 50px;
   }
+
+  .question-wire {
+    position: relative;
+    left: 70px;
+  }
+
+  .question-wire img {
+    width: 100px;
+  }
+
+  .question-top_text p {
+    font-size: 18px;
+  }
+
+  .question-top_text h2 {
+    font-size: 24px;
+    margin-bottom: 0;
+  }
+
+  .question-accordion {
+    width: 95%;
+    margin: auto;
+  }
+
+  .questions__item-title {
+    font-size: 16px;
+  }
+
+  .question-bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin: 3rem 0;
+  }
+
+  .question-btn {
+    width: 40%;
+  }
 }
 
 /* MEDIA QUERIES FOR PHONE */
@@ -792,5 +958,18 @@ img {
   .value-btn img {
     width: 30%;
     padding-right: 10px;
+  }
+
+  .question-wire {
+    position: relative;
+    left: 30px;
+  }
+
+  .question-wire img {
+    width: 80px;
+  }
+
+  .question-btn {
+    width: 50%;
   }
 }
