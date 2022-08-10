@@ -1,511 +1,679 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!-- <link rel="stylesheet" href="css/bootstrap.min.css" /> -->
-    <link
-      href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css"
-      rel="stylesheet"
-    />
-    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon" />
-    <link rel="stylesheet" href="css/styles.css" />
-    <title>Zuri</title>
-  </head>
-  <body>
-    <!-- HEADER -->
-    <header class="header">
-      <nav class="navbar my-container" id="nav">
-        <div class="nav-logo">
-          <img src="images/logo.svg" alt="" srcset="" />
-        </div>
-        <div class="nav-links">
-          <ul class="nav-link">
-            <li class="link-item">
-              <a href="#">About</a>
-            </li>
-            <li class="link-item">
-              <a href="#">Why Us?</a>
-            </li>
-            <li class="link-item">
-              <a href="#">Stacks Covered</a>
-            </li>
-            <li class="link-item">
-              <a href="#">FAQs</a>
-            </li>
-          </ul>
-          <div class="nav-enroll">
-            <a href="http://">
-              <img src="images/thumbs.png" alt="" />
-            </a>
-            <a href="http://" class="enroll-link">Enroll Now</a>
-          </div>
-        </div>
-      </nav>
-    </header>
 
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!-- STYLESHEET -->
+  <link rel="stylesheet" href="assets/css/styles.css" />
+  <!-- REMIXICON -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <!-- FAVICON -->
+  <link rel="shortcut icon" href="assets/images/favicon.png" type="image/x-icon" />
+
+  <!-- REMIX -->
+
+  <!-- TITLE -->
+  <title>Zuri</title>
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header class="header">
+    <nav class="nav container flex flex-ai-c flex-jc-sb" id="nav">
+      <div class="nav__logo">
+        <img src="assets/images/logo.svg" alt="nav-logo" />
+      </div>
+
+      <div class="nav__menu flex flex-ai-c flex-jc-sb">
+        <ul class="nav__list flex flex-ai-c flex-jc-sb">
+          <li class="nav__item">
+            <a href="#" class="nav__link">About</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Why Us?</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Stacks Covered</a>
+          </li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">FAQs</a>
+          </li>
+        </ul>
+
+        <div class="nav__enroll flex flex-ai-c">
+          <a href="#" class="enroll-thumb flex flex-ai-c">
+            <img src="assets/images/thumbs.png" alt="" />
+          </a>
+          <button class="button-red enroll-link">
+            <a href="#">Enroll Now</a>
+          </button>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main class="main">
     <!-- HERO -->
-    <main>
-      <section class="hero-section">
-        <div class="my-container hero-container">
-          <div class="hero-left">
-            <img src="images/lady1.jpg" alt="" />
+    <section class="hero">
+      <div class="hero__container container grid">
+        <div class="hero__left flex flex-ai-c">
+          <img src="assets/images/lady1.jpg" alt="" class="hero__left-img" />
+        </div>
+        <div class="hero__center">
+          <p class="hero__center-top">And now your search has ended...</p>
+          <h1 class="hero__center-main">
+            Gain knowledge to help you scale through the tech industry for
+            free.
+          </h1>
+          <div class="hero__center-line flex flex-ai-c">
+            <img src="assets/images/line.svg" alt="" />
           </div>
-          <div class="hero-center">
-            <p class="top-text">And now your search has ended...</p>
-            <h1>
-              Gain knowledge to help you scale through the tech industry for
-              free.
-            </h1>
-            <div class="line">
-              <img src="images/line.svg" class="" alt="" />
-            </div>
-            <p class="bottom-text">
-              A basic introduction to software development and product design
-              aimed at complete beginners, which anyone can join
-            </p>
-            <div class="enroll-link hero-btn">
+          <p class="hero__center-bottom">
+            A basic introduction to software development and product design
+            aimed at complete beginners, which anyone can join
+          </p>
+          <div class="hero__btn">
+            <button class="button-red hero-btn">
               <a href="#">Enroll Now</a>
-            </div>
-            <img src="images/maleface.svg" class="maleface" alt="" />
-            <img src="images/section1wire.svg" class="hero-wire" alt="" />
+            </button>
           </div>
-          <div class="hero-right">
-            <img src="images/male1.jpg" alt="" />
+          <img src="assets/images/maleface.svg" alt="" class="hero__center-maleface" />
+          <img src="assets/images/section1wire.svg" alt="" class="hero__center-wire" />
+        </div>
+        <div class="hero__right flex flex-ai-c">
+          <img src="assets/images/male1.jpg" alt="" class="hero__right-img" />
+        </div>
+      </div>
+    </section>
+
+    <!-- GOALS -->
+    <section class="goal">
+      <div class="goal__container container grid">
+        <div class="goal__left">
+          <h3>
+            INGRESSIVE FOR GOOD WAS LAUNCHED IN JULY 2020 WITH NO DOLLAR IN
+            DONATION...
+          </h3>
+        </div>
+        <div class="goal__center flex flex-ai-c flex-jc-c">
+          <img src="assets/images/ingresive.jpg" alt="" />
+        </div>
+        <div class="goal__right">
+          <p>
+            to help increase the earning power of African youths by providing
+            them with tech skills, community, tools, resources, and jobs...
+            <a href="#" class="goal__right-link">Read More</a>
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="feature">
+      <div class="feature__container container">
+        <div class="feature__top flex flex-ai-fe flex-jc-sb">
+          <div class="feature__top-left">
+            <div class="feature__wire flex flex-ai-c flex-jc-c">
+              <img src="assets/images/section3wire.svg" alt="" />
+            </div>
+            <p>Why Zuri Training?</p>
+            <h1>
+              Here at Zuri, you gain access to enough knowledge to introduce
+              and aid your success in the tech industry.
+            </h1>
+          </div>
+          <div class="feature__top-right">
+            <img src="assets/images/Star.jpg" alt="" />
           </div>
         </div>
-      </section>
 
-      <!-- GOALS -->
-      <section class="goal-section">
-        <div class="my-container goal-container">
-          <div class="goal-left">
-            <h3>
-              INGRESSIVE FOR GOOD WAS LAUNCHED IN JULY 2020 WITH NO DOLLAR IN
-              DONATION...
-            </h3>
-          </div>
-          <div class="goal-center">
-            <img src="images/ingresive.jpg" alt="" />
-          </div>
-          <div class="goal-right">
-            <p>
-              to help increase the earning power of African youths by providing
-              them with tech skills, community, tools, resources, and jobs...
-              <a href="#" class="goal-right_link">Read More</a>
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <!-- IMPORTANCE -->
-      <section class="importance-section">
-        <div class="my-container importance-container">
-          <div class="importance-top">
-            <div class="importance-top_left">
-              <img
-                src="images/section3wire.svg"
-                class="importance-wire"
-                alt=""
-                srcset=""
-              />
-              <p>Why Zuri Training?</p>
-              <h2>
-                Here at Zuri, you gain access to enough knowledge to introduce
-                and aid your success in the tech industry.
-              </h2>
+        <div class="feature__card-container grid">
+          <div class="feature__card red-card">
+            <div class="feature__card-curve">
+              <img src="assets/images/curve1.png" alt="" />
             </div>
-            <div class="importance-top_right">
-              <img src="images/Star.jpg" alt="" />
+            <div class="feature__card-body">
+              <h2>01</h2>
+              <h3>Fully Remote</h3>
+              <p>100% online classes available to anyone in the world.</p>
             </div>
           </div>
-        </div>
-      </section>
-
-      <!-- CARDS -->
-      <section class="card-section">
-        <div class="my-container card-container">
-          <div class="card card1">
-            <div class="card-curve">
-              <img src="images/curve1.png" alt="" />
+          <div class="feature__card">
+            <div class="feature__card-curve">
+              <img src="assets/images/curve.svg" alt="" />
             </div>
-            <div class="card-body">
-              <h2 class="card-no">01</h2>
-              <h3 class="card-title">Hands-on Experience</h3>
-              <p class="card-text">
-                We don't just teach you theory, we show you how to build things.
+            <div class="feature__card-body">
+              <h2>02</h2>
+              <h3>Hands-on Experience</h3>
+              <p>
+                We don't just teach you theory, we show you how to build
+                things.
               </p>
             </div>
           </div>
-          <div class="card card2">
-            <div class="card-curve">
-              <img src="images/curve.svg" alt="" />
+          <div class="feature__card">
+            <div class="feature__card-curve">
+              <img src="assets/images/curve3.svg" alt="" />
             </div>
-            <div class="card-body">
-              <h2 class="card-no">02</h2>
-              <h3 class="card-title">Fully Remote</h3>
-              <p class="card-text">
-                100% online classes available to anyone in the world.
-              </p>
+            <div class="feature__card-body">
+              <h2>03</h2>
+              <h3>Collaborative Learning</h3>
+              <p>We connect you with like minds to grow together.</p>
             </div>
           </div>
-          <div class="card card3">
-            <div class="card-curve">
-              <img src="images/curve3.svg" alt="" />
+          <div class="feature__card">
+            <div class="feature__card-curve">
+              <img src="assets/images/curve4.svg" alt="" />
             </div>
-            <div class="card-body">
-              <h2 class="card-no">03</h2>
-              <h3 class="card-title">Collaborative Learning</h3>
-              <p class="card-text">
-                We connect you with like minds to grow together.
-              </p>
-            </div>
-          </div>
-          <div class="card card4">
-            <div class="card-curve">
-              <img src="images/curve4.svg" alt="" />
-            </div>
-            <div class="card-body">
-              <h2 class="card-no">04</h2>
-              <h3 class="card-title">Real-life Projects</h3>
-              <p class="card-text">
+            <div class="feature__card-body">
+              <h2>04</h2>
+              <h3>Real-life Projects</h3>
+              <p>
                 We give CV worthy projects to help you hit the ground running.
               </p>
             </div>
           </div>
-          <div class="card card5">
-            <div class="card-curve">
-              <img src="images/curve5.svg" alt="" />
+          <div class="feature__card">
+            <div class="feature__card-curve">
+              <img src="assets/images/curve5.svg" alt="" />
             </div>
-            <div class="card-body">
-              <h2 class="card-no">05</h2>
-              <h3 class="card-title">Beginner Friendly</h3>
-              <p class="card-text">
+            <div class="feature__card-body">
+              <h2>05</h2>
+              <h3>Beginner Friendly</h3>
+              <p>
                 We provide step-by-step procedures on how to get things done.
               </p>
             </div>
           </div>
-          <div class="card card6">
-            <div class="card-curve">
-              <img src="images/curve6.svg" alt="" />
+          <div class="feature__card">
+            <div class="feature__card-curve">
+              <img src="assets/images/curve6.svg" alt="" />
             </div>
-            <div class="card-body">
-              <h2 class="card-no">06</h2>
-              <h3 class="card-title">In-program Mentorship</h3>
-              <p class="card-text">
+            <div class="feature__card-body">
+              <h2>06</h2>
+              <h3>In-program Mentorship</h3>
+              <p>
                 During and after the program you have access to experience
                 seniors.
               </p>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="get-started-section">
-        <div class="my-container get-started-container">
-          <div class="get-started_left">
-            <div class="get-started-wire">
-              <img src="images/section5wire.svg" alt="" />
-            </div>
-            <p class="getStarted-toptext">We will help you get started</p>
-            <h2 class="getStarted-maintext">
-              High quality training with hands-on practice
-            </h2>
-            <p class="getStarted-bottomtext">
-              We give you weekly tasks, ranging from easy to complex, as you
-              progress from stage to stage; making it to the final stage means
-              you are now ready to continue learning and growing independently.
-            </p>
-            <div class="getStarted-btn">
-              <a href="#">Enroll Now</a>
-            </div>
-
-            <div class="corevalues">
-              <div class="value-btn">
-                <a href="#"> <img src="images/hand.svg" alt="" /> Teamwork </a>
-              </div>
-              <div class="value-btn">
-                <a href="#">
-                  <img src="images/mentor.svg" alt="" /> Mentorship
-                </a>
-              </div>
-              <div class="value-btn">
-                <a href="#">
-                  <img src="images/practice.svg" alt="" /> Practice
-                </a>
-              </div>
-              <div class="value-btn">
-                <a href="#">
-                  <img src="images/games.svg" alt="" /> Fun & Games
-                </a>
-              </div>
-            </div>
+    <!-- PRACTICE -->
+    <section class="practice">
+      <div class="practice__container container flex">
+        <div class="practice__left">
+          <div class="practice__left-wire flex flex-jc-c">
+            <img src="assets/images/section5wire.svg" alt="" />
           </div>
-          <div class="get-started-right">
-            <img src="images/section5-image.png" alt="" />
+          <p class="practice__left-top">We will help you get started</p>
+          <h2 class="practice__left-main">
+            High quality training with hands-on practice
+          </h2>
+          <p class="practice__left-bottom">
+            We give you weekly tasks, ranging from easy to complex, as you
+            progress from stage to stage; making it to the final stage means
+            you are now ready to continue learning and growing independently.
+          </p>
+
+          <div class="practice__left-btn">
+            <button class="button-red practice-btn">
+              <a href="#">Enroll Now</a>
+            </button>
+          </div>
+
+          <div class="practice__left-corevalues grid">
+            <button class="value-btn">
+              <a href="#" class="flex flex-ai-c">
+                <img src="assets/images/hand.svg" alt="" /> Teamwork
+              </a>
+            </button>
+            <button class="value-btn">
+              <a href="#" class="flex flex-ai-c">
+                <img src="assets/images/mentor.svg" alt="" /> Mentorship
+              </a>
+            </button>
+            <button class="value-btn">
+              <a href="#" class="flex flex-ai-c">
+                <img src="assets/images/practice.svg" alt="" /> Practice
+              </a>
+            </button>
+            <button class="value-btn">
+              <a href="#" class="flex flex-ai-c">
+                <img src="assets/images/games.svg" alt="" /> Fun & Games
+              </a>
+            </button>
           </div>
         </div>
-        <img
-          src="images/dotsection5.svg"
-          class="getStarted-section-img"
-          alt=""
-        />
-      </section>
+        <div class="practice__right">
+          <img src="assets/images/section5-image.png" alt="" />
+        </div>
+      </div>
+      <div class="practice-dot">
+        <img src="assets/images/dotsection5.svg" alt="" />
+      </div>
+    </section>
 
-      <!-- SCOPE -->
-      <section class="scope-section">
-        <div class="my-container scope-container">
-          <p>Scope Of Program</p>
+    <!-- SCOPE -->
+    <section class="scope">
+      <div class="scope__container container">
+        <div class="scope__top">
+          <h3>Scope Of Program</h3>
           <h1>
             Here is the list of areas that will be explored in the training.
           </h1>
-          <div class="scope-wire">
-            <img src="images/section6.svg" alt="" />
+        </div>
+        <div class="scope__wire flex flex-jc-c">
+          <img src="assets/images/section6.svg" alt="" />
+        </div>
+
+        <div class="scope__card-container grid">
+          <div class="scope__card">
+            <h3 class="scope__card-title">Frontend Development</h3>
+            <div class="scope__card-img flex flex-ai-c">
+              <img src="assets/images/html.svg" alt="" />
+              <img src="assets/images/css-3 logo.svg" alt="" />
+              <img src="assets/images/javascript logo.svg" alt="" />
+            </div>
+            <p class="scope__card-detail">
+              This track deals with the aspect of your application that the
+              users interact with. A front-end developer will be able to
+              correctly interpret a given design to the user interface.
+            </p>
           </div>
-
-          <!-- SCOPE CARD -->
-          <div class="scope-card_container">
-            <div class="scope-card">
-              <div class="scope-body">
-                <p class="scope-card_title">Frontend Development</p>
-                <div class="scope-card-img">
-                  <img src="images/html.svg" alt="" />
-                  <img src="images/css-3 logo.svg" alt="" />
-                  <img src="images/javascript logo.svg" alt="" />
-                </div>
-
-                <p class="scope-card_text">
-                  This track deals with the aspect of your application that the
-                  users interact with. A front-end developer will be able to
-                  correctly interpret a given design to the user interface.
-                </p>
-              </div>
+          <div class="scope__card">
+            <h3 class="scope__card-title">Backend Development</h3>
+            <div class="scope__card-img flex flex-ai-c">
+              <img src="assets/images/php2 logo.svg" alt="" />
+              <img src="assets/images/python-4 logo.svg" alt="" />
+              <img src="assets/images/javascript logo.svg" alt="" />
             </div>
-            <div class="scope-card">
-              <div class="scope-body">
-                <p class="scope-card_title">Backend Development</p>
-                <div class="scope-card-img">
-                  <img src="images/php2 logo.svg" alt="" />
-                  <img src="images/python-4 logo.svg" alt="" />
-                  <img src="images/javascript logo.svg" alt="" />
-                </div>
-
-                <p class="scope-card_text">
-                  This track deals with the aspect of the application the user
-                  does not directly interact with. It allows the frontend
-                  function either by running some back-end code or connecting to
-                  the database.
-                </p>
-              </div>
-            </div>
-            <div class="scope-card">
-              <div class="scope-body">
-                <p class="scope-card_title">Product Design</p>
-                <div class="scope-card-img">
-                  <img src="images/adobe-xd logo.svg" alt="" />
-                  <img src="images/Figma logo.svg" alt="" />
-                </div>
-                <p class="scope-card_text">
-                  This track deals with creating a graphic plan for an
-                  application. You will learn to convert project documentation
-                  into viewable and understandable graphic design for the
-                  developers to work with.
-                </p>
-              </div>
-            </div>
-            <div class="scope-card">
-              <div class="scope-body">
-                <p class="scope-card_title">DevOPS</p>
-                <div class="scope-card-img">
-                  <img src="images/Ubuntu logo.svg" alt="" />
-                  <img src="images/Bash logo.svg" alt="" />
-                  <img src="images/aws logo.svg" alt="" />
-                </div>
-
-                <p class="scope-card_text">
-                  The DevOps track is an extension of the backend track. It
-                  involves tools that’ll allow the participant to deploy
-                  solutions for public use.
-                </p>
-              </div>
-            </div>
-            <div class="scope-card">
-              <div class="scope-body">
-                <p class="scope-card_title">Fullstack Development</p>
-                <div class="scope-card-img">
-                  <img src="images/html.svg" alt="" />
-                  <img src="images/css-3 logo.svg" alt="" />
-                  <img src="images/javascript logo.svg" alt="" />
-                  <img src="images/python-4 logo.svg" alt="" />
-                </div>
-
-                <p class="scope-card_text">
-                  A combination of frontend, backend, and DevOps. This track
-                  will only be available to participants who have the time to
-                  dedicate to the training.
-                </p>
-              </div>
-            </div>
-            <div class="scope-card">
-              <div class="scope-body">
-                <p class="scope-card_title">Frameworks</p>
-                <div class="scope-card-img">
-                  <img src="images/Laravel logo.svg" alt="" />
-                  <img src="images/React logo.svg" alt="" />
-                  <img src="images/Django logo.svg" alt="" />
-                </div>
-
-                <p class="scope-card_text">
-                  During the program we will be exploring several useful
-                  frameworks to give you an edge in the industry and help you
-                  develop complex applications much faster.
-                </p>
-              </div>
-            </div>
+            <p class="scope__card-detail">
+              This track deals with the aspect of the application the user
+              does not directly interact with. It allows the frontend function
+              either by running some back-end code or connecting to the
+              database.
+            </p>
           </div>
+          <div class="scope__card">
+            <h3 class="scope__card-title">Product Design</h3>
+            <div class="scope__card-img flex flex-ai-c">
+              <img src="assets/images/adobe-xd logo.svg" class="xd-img" alt="" />
+              <img src="assets/images/Figma logo.svg" class="figma-img" alt="" />
+            </div>
+            <p class="scope__card-detail">
+              This track deals with creating a graphic plan for an
+              application. You will learn to convert project documentation
+              into viewable and understandable graphic design for the
+              developers to work with.
+            </p>
+          </div>
+          <div class="scope__card">
+            <h3 class="scope__card-title">DevOPS</h3>
+            <div class="scope__card-img flex flex-ai-c special-card">
+              <img src="assets/images/Ubuntu logo.svg" alt="" />
+              <img src="assets/images/Bash logo.svg" alt="" />
+              <img src="assets/images/aws logo.svg" class="aws-img" alt="" />
+            </div>
+            <p class="scope__card-detail">
+              The DevOps track is an extension of the backend track. It
+              involves tools that’ll allow the participant to deploy solutions
+              for public use.
+            </p>
+          </div>
+          <div class="scope__card">
+            <h3 class="scope__card-title">Fullstack Development</h3>
+            <div class="scope__card-img flex flex-ai-c">
+              <img src="assets/images/html.svg" alt="" />
+              <img src="assets/images/css-3 logo.svg" alt="" />
+              <img src="assets/images/javascript logo.svg" alt="" />
+              <img src="assets/images/python-4 logo.svg" alt="" />
+            </div>
+            <p class="scope__card-detail">
+              A combination of frontend, backend, and DevOps. This track will
+              only be available to participants who have the time to dedicate
+              to the training.
+            </p>
+          </div>
+          <div class="scope__card">
+            <h3 class="scope__card-title">Frameworks</h3>
+            <div class="scope__card-img flex flex-ai-c special-card">
+              <img src="assets/images/Laravel logo.svg" alt="" />
+              <img src="assets/images/React logo.svg" alt="" />
+              <img src="assets/images/Django logo.svg" alt="" />
+            </div>
+            <p class="scope__card-detail">
+              During the program we will be exploring several useful
+              frameworks to give you an edge in the industry and help you
+              develop complex applications much faster.
+            </p>
+          </div>
+        </div>
 
-          <div class="scope-enroll-link">
+        <div class="scope-btn flex flex-jc-c">
+          <button class="button-red">
             <a href="#">Enroll Now</a>
-          </div>
-          <hr class="scope-ruler" />
+          </button>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <!-- QUESTIONS -->
-      <section class="question-section">
-        <div class="my-container question-container">
-          <div class="question-top">
-            <div class="question-wire">
-              <img src="images/section7wire.svg" alt="" />
-            </div>
-            <div class="question-top_text">
-              <p>Got Questions?</p>
-              <h2>Frequently Asked Questions</h2>
-            </div>
+    <!-- QUESTIONS -->
+    <section class="questions">
+      <div class="questions__container container">
+        <div class="questions__top">
+          <div class="questions__top-wire">
+            <img src="assets/images/section7wire.svg" alt="" />
           </div>
-
-          <div class="question-accordion">
-            <div class="questions__group">
-              <div class="questions__item">
-                <header class="questions__header">
-                  <h3 class="questions__item-title">
-                    Would I have to pay to enroll for the training?
-                  </h3>
-                  <i class="ri-add-line questions__icon"></i>
-                </header>
-
-                <div class="questions__content">
-                  <p class="questions__description">
-                    No, the program is completely free thanks to Ingressive For
-                    Good
-                  </p>
-                </div>
-              </div>
-
-              <div class="questions__item">
-                <header class="questions__header">
-                  <h3 class="questions__item-title">
-                    What are the things I would need to participate?
-                  </h3>
-                  <i class="ri-add-line questions__icon"></i>
-                </header>
-
-                <div class="questions__content">
-                  <p class="questions__description">
-                    You'll need a laptop, internet connection and the
-                    willingness to learn through collaboration and mentorship.
-                  </p>
-                </div>
-              </div>
-
-              <div class="questions__item">
-                <header class="questions__header">
-                  <h3 class="questions__item-title">
-                    What happens if i join and I’m not active?
-                  </h3>
-                  <i class="ri-add-line questions__icon"></i>
-                </header>
-
-                <div class="questions__content">
-                  <p class="questions__description">
-                    Participants who join the program and stop engaging will be
-                    given the chance to catch up. You'll also be assigned a
-                    'study-mate' and mentor to help you. However, there is the
-                    possibility of not being promoted to the next stage if you
-                    remain inactive for too long
-                  </p>
-                </div>
-              </div>
-
-              <div class="questions__item">
-                <header class="questions__header">
-                  <h3 class="questions__item-title">
-                    Can I switch from the part-time track to full-time and vice
-                    versa?
-                  </h3>
-                  <i class="ri-add-line questions__icon"></i>
-                </header>
-
-                <div class="questions__content">
-                  <p class="questions__description">
-                    Unfortunately, no, you cannot switch from part-time to
-                    full-time and vice-versa
-                  </p>
-                </div>
-              </div>
-
-              <div class="questions__item">
-                <header class="questions__header">
-                  <h3 class="questions__item-title">Will I get paid?</h3>
-                  <i class="ri-add-line questions__icon"></i>
-                </header>
-
-                <div class="questions__content">
-                  <p class="questions__description">
-                    We reward some participants who complete tasks early,
-                    however, this is not a weekly reward. All the work that will
-                    be done during the program are hypothetical.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="question-bottom">
-            <p>Still got questions?</p>
-            <div class="question-btn">
-              <a href="#"> <i class="ri-twitter-fill"></i> Tweet them at us </a>
-            </div>
-          </div>
-
-          <hr class="scope-ruler" />
+          <h3>Got Questions?</h3>
+          <h2>Frequently Asked Questions</h2>
         </div>
-      </section>
 
-      <!-- SECTION -->
-      <section class="structure-section">
-        <div class="my-container structure-container">
-          <div class="structure-top">
-            <div class="structure-wire">
-              <img src="images/section7wire.svg" alt="" />
+        <div class="questions__accordion-container">
+          <div class="questions__group">
+            <div class="questions__item">
+              <header class="questions__header flex flex-ai-c flex-jc-sb">
+                <h3 class="questions__item-title">
+                  Would I have to pay to enroll for the training?
+                </h3>
+                <i class="ri-add-line questions__icon"></i>
+              </header>
+
+              <div class="questions__content">
+                <p class="questions__description">
+                  No, the program is completely free thanks to Ingressive For
+                  Good
+                </p>
+              </div>
             </div>
-            <div class="structure-star">
-              <img src="images/Star1.svg" alt="" />
+
+            <div class="questions__item">
+              <header class="questions__header flex flex-ai-c flex-jc-sb">
+                <h3 class="questions__item-title">
+                  What are the things I would need to participate?
+                </h3>
+                <i class="ri-add-line questions__icon"></i>
+              </header>
+
+              <div class="questions__content">
+                <p class="questions__description">
+                  You'll need a laptop, internet connection and the
+                  willingness to learn through collaboration and mentorship.
+                </p>
+              </div>
             </div>
-            <div class="structure-top-text">
-              <h3>Structure</h3>
-              <h1>Program Structure</h1>
-              <p>
-                There are 2 broad paths in this program based on your
-                availability.
-              </p>
+
+            <div class="questions__item">
+              <header class="questions__header flex flex-ai-c flex-jc-sb">
+                <h3 class="questions__item-title">
+                  What happens if i join and I’m not active?
+                </h3>
+                <i class="ri-add-line questions__icon"></i>
+              </header>
+
+              <div class="questions__content">
+                <p class="questions__description">
+                  Participants who join the program and stop engaging will be
+                  given the chance to catch up. You'll also be assigned a
+                  'study-mate' and mentor to help you. However, there is the
+                  possibility of not being promoted to the next stage if you
+                  remain inactive for too long
+                </p>
+              </div>
+            </div>
+
+            <div class="questions__item">
+              <header class="questions__header flex flex-ai-c flex-jc-sb">
+                <h3 class="questions__item-title">
+                  Can I switch from the part-time track to full-time and vice
+                  versa?
+                </h3>
+                <i class="ri-add-line questions__icon"></i>
+              </header>
+
+              <div class="questions__content">
+                <p class="questions__description">
+                  Unfortunately, no, you cannot switch from part-time to
+                  full-time and vice-versa
+                </p>
+              </div>
+            </div>
+
+            <div class="questions__item">
+              <header class="questions__header flex flex-ai-c flex-jc-sb">
+                <h3 class="questions__item-title">Will I get paid?</h3>
+                <i class="ri-add-line questions__icon"></i>
+              </header>
+
+              <div class="questions__content">
+                <p class="questions__description">
+                  We reward some participants who complete tasks early,
+                  however, this is not a weekly reward. All the work that will
+                  be done during the program are hypothetical.
+                </p>
+              </div>
             </div>
           </div>
         </div>
-      </section>
-    </main>
 
-    <script src="js/script.js"></script>
-  </body>
+        <div class="questions__bottom flex flex flex-ai-c flex-jc-c">
+          <p>Still got question?</p>
+          <div class="questions__button">
+            <button class="button-red flex flex-ai-c flex-jc-c questions-btn">
+              <a href="#" class="flex flex-ai-c flex-jc-c ">
+                <i class="ri-twitter-fill"></i> Tweet them at us
+              </a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- STRUCTURE -->
+    <section class="structure">
+      <div class="structure__container container">
+        <div class="structure__top">
+          <div class="structure__top-wire">
+            <img src="assets/images/section7wire.svg" alt="" />
+          </div>
+          <div class="structure__top-star">
+            <img src="assets/images/Star1.svg" alt="" />
+          </div>
+          <div class="structure__top-text flex">
+
+            <h3>Structure</h3>
+            <h2>Program Structure</h2>
+            <p>
+              There are 2 broad paths in this program based on your
+              availability.
+            </p>
+          </div>
+        </div>
+        <div class="card-items">
+          <div class="structure__card-container flex flex-jc-sb">
+            <div class="structure__card left-card">
+              <h2 class="structure__card-title">Full-time</h2>
+              <p class="structure__card-detail">Requires at least 25 hours weekly on program content.</p>
+              <h3 class="structure__card-subheading">Available Tracks:</h3>
+              <div class="structure__card-tracks ">
+                <ul>
+                  <li>Full Stack: Backend (Python, JavaScript), Frontend (HTML, CSS, JavaScript) & DevOps</li>
+                  <li>Design: Figma, Adobe XD</li>
+                </ul>
+              </div>
+              <h3 class="structure__card-subheading">Phases:</h3>
+              <div class="structure__card-phases">
+                <ul>
+                  <li>Training Phase</li>
+                  <li>Project Phase</li>
+                </ul>
+              </div>
+              <h3 class="structure__card-subheading">
+                Post Program:
+              </h3>
+              <div class="structure__card-program">
+                <ul>
+                  <li>Certification of Attendance</li>
+                  <li>
+                    <a href="#">Zuri Internship</a>
+                    <img src="assets/images/clarity.svg" alt="">
+                  </li>
+                  <li>
+                    Laptop Reward (upgrade or new one)
+                    <img src="assets/images/clarity.svg" alt="">
+                  </li>
+                  <li>
+                    Job Placement
+                    <img src="assets/images/clarity.svg" alt="">
+                  </li>
+                  <li>Zuri Talent Pool</li>
+                  <li>More Training: <img src="assets/images/clarity.svg" alt=""></li>
+                </ul>
+                <div class="list-bottom">
+                  <p>Interview Prep</p>
+                  <p>Algorithms & Data Structure</p>
+                  <p>Freelance Setup & Training</p>
+                  <p>LinkedIn Optimization</p>
+                  <p>CV Review</p>
+                </div>
+              </div>
+              <div class="structure__card-bgimg">
+                <img src="assets/images/hour.png" alt="">
+              </div>
+            </div>
+            <div class="structure__card right-card">
+              <h2 class="structure__card-title">Part-time</h2>
+              <p class="structure__card-detail">Requires at least 11 hours weekly on program content.</p>
+              <h3 class="structure__card-subheading">Available Tracks:</h3>
+              <div class="structure__card-tracks">
+                <ul>
+                  <li>Frontend: <br>
+                    HTML, CSS, JavaScript
+                  </li>
+                  <li>Backend: Can only select one backend language <br>
+                    Python, <br>
+                    PHP, <br>
+                    JavaScript, <br>
+                  </li>
+                  <li>Phases: <br> Figma</li>
+                </ul>
+              </div>
+              <h3 class="structure__card-subheading">Phases:</h3>
+              <div class="structure__card-phases">
+                <ul>
+                  <li>Training Phase</li>
+
+                </ul>
+              </div>
+              <h3 class="structure__card-subheading">
+                Post Program:
+              </h3>
+              <div class="structure__card-program">
+                <ul>
+                  <li>Certification of Attendance</li>
+                  <li>
+                    Zuri Internship
+                  </li>
+
+              </div>
+              <div class="structure__card-bgimg">
+                <img src="assets/images/time.png" alt="">
+              </div>
+            </div>
+
+
+          </div>
+
+          <div class="structure__card-dot">
+            <img src="assets/images/circle.png" alt="">
+          </div>
+        </div>
+
+      </div>
+      <div class="structure__triangle">
+        <img src="assets/images/move.svg" alt="">
+      </div>
+    </section>
+
+    <!-- CAROUSEL -->
+    <section class="carousel">
+      <div class="carousel__container container">
+        <div class="carousel__dot">
+          <img src="assets/images/circle.png" alt="">
+        </div>
+        <div class="carousel__pane">
+          <div class="carousel__pane-tcurve">
+            <img src="assets/images/bend1.svg" alt="">
+          </div>
+          <div class="carousel__pane-text">
+            <p>Get Started</p>
+            <h1>Break into the tech industry like a Pro</h1>
+          </div>
+          <div class="carousel__button flex flex-ai-c flex-jc-c">
+            <button class="button-red practice-btn carousel-btn">
+              <a href="#">Enroll Now</a>
+            </button>
+          </div>
+          <div class="carousel__pane-round">
+            <img src="assets/images/round.svg" alt="">
+          </div>
+          <div class="carousel__pane-bottom flex flex-jc-sb">
+            <div class="carousel__pane-bcurve flex">
+              <img src="assets/images/curve2.svg" alt="">
+            </div>
+            <div class="carousel__pane-circle flex">
+              <img src="assets/images/mains.png" alt="">
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer__container container">
+      <div class="footer__top flex flex-jc-sb flex-ai-c">
+        <div class="footer__top-logo">
+
+          <img src="assets/images/logo.svg" alt="">
+        </div>
+        <div class="footer__top-img">
+          <a href="#">
+            <img src="assets/images/facebook.svg" alt="">
+          </a>
+          <a href="#">
+            <img src="assets/images/linkd.svg" alt="">
+          </a>
+          <a href="#">
+            <img src="assets/images/twitter.svg" alt="">
+          </a>
+          <a href="#">
+            <img src="assets/images/youtube.svg" alt="">
+          </a>
+        </div>
+      </div>
+
+      <div class="footer__bottom flex flex-jc-sb flex-ai-c">
+        <p class="footer__bottom-copyright">
+          &copy; 2022 Zuri Training
+        </p>
+        <div class="footer__bottom-privacy flex flex-ai-c flex-jc-sb">
+          <a href="#">Privacy Policy</a>
+          <a href="#">Ingressive For Good</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- SCRIPT -->
+  <script src="assets/js/script.js"></script>
+</body>
+
 </html>
