@@ -1,3 +1,4 @@
+@import url('http://fonts.cdnfonts.com/css/graphik');
 :root {
   --header-height: 6rem;
   --red-color: #e7332b;
@@ -8,7 +9,7 @@
   --text-color: #1b1a20;
   --grey-color: #333333;
   --link-grey-color: #585757;
-  --body-font: Inter, sans-serif;
+  --body-font: 'Graphik', sans-serif;
   --bigger-font-size: 3.75rem;
   --big-font-size: 3.4375rem;
   --h1-font-size: 3.06rem;
@@ -666,7 +667,7 @@ img {
 .questions__description {
   font-size: 14px;
   padding: 5px 0 0 1rem;
-  font-family: "Times New Roman", Times, serif;
+  font-family: 'Times New Roman', Times, serif;
 }
 .questions__header {
   cursor: pointer;
@@ -676,7 +677,11 @@ img {
   overflow: hidden;
   height: 0;
 }
-.questions__item, .questions__header, .questions__item-title, .questions__description, .questions__content {
+.questions__item,
+.questions__header,
+.questions__item-title,
+.questions__description,
+.questions__content {
   transition: 0.3s;
 }
 .questions .accordion-open .questions__header,
@@ -984,13 +989,16 @@ img {
     margin: 4rem 0;
   }
   .footer a,
-.footer p {
+  .footer p {
     font-size: var(--normal-font-size);
   }
-  .footer__top, .footer__bottom, .footer__bottom-privacy {
+  .footer__top,
+  .footer__bottom,
+  .footer__bottom-privacy {
     flex-direction: column;
   }
-  .footer__bottom, .footer__bottom-privacy {
+  .footer__bottom,
+  .footer__bottom-privacy {
     gap: 1rem;
   }
   .footer__bottom {
