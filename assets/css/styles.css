@@ -1,4 +1,18 @@
-@import url('http://fonts.cdnfonts.com/css/graphik');
+@font-face {
+  font-family: GraphikRegular;
+  src: url(Graphik-Regular.woff) format('woff');
+}
+
+@font-face {
+  font-family: GraphikMedium;
+  src: url(Graphik-Medium.woff) format('woff');
+}
+
+@font-face {
+  font-family: GraphikBold;
+  src: url(Graphik-Semibold.woff) format('woff');
+}
+
 :root {
   --header-height: 6rem;
   --red-color: #e7332b;
@@ -9,7 +23,7 @@
   --text-color: #1b1a20;
   --grey-color: #333333;
   --link-grey-color: #585757;
-  --body-font: 'Graphik', sans-serif;
+  --body-font: GraphikRegular;
   --bigger-font-size: 3.75rem;
   --big-font-size: 3.4375rem;
   --h1-font-size: 3.06rem;
@@ -75,6 +89,12 @@ button {
   cursor: pointer;
   border: none;
   outline: none;
+}
+
+h1,
+h2,
+h3 {
+  font-family: GraphikBold;
 }
 
 ul {
@@ -239,6 +259,7 @@ img {
 .hero__center-main {
   color: var(--black-color);
   font-size: var(--h1-font-size);
+  /* font-family: GraphikBold; */
 }
 .hero__center-line {
   padding-right: 95px;
